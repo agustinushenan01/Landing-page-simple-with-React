@@ -1,0 +1,28 @@
+.Bg-Aboutus {
+    background-image: url(../img/people.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+    .Bg-Aboutus {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Bg-Aboutus {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
