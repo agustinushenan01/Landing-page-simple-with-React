@@ -43,7 +43,7 @@ function HeaderNavigation() {
                         </div>
 
                         {/* mobile view */}
-                        <div className={`sm:hidden z-50 ${isMobileMenuOpen ? '' : 'hidden'}`} id="mobile-menu" style={{ backgroundColor: scrolled ? '#ffffff' : 'transparent' }}>
+                        <div className={`sm:hidden z-50 ${isMobileMenuOpen ? '' : 'hidden'}`} id="mobile-menu">
 
                             <div
                                 className={`bg-${scrolled ? 'white' : 'transparent'} space-y-1 px-2 pb-3 pt-2 flex flex-col absolute ${scrolled ? 'bg-opacity-75' : ''} top-16 left-0 right-0 shadow-lg rounded-md border-y-2 border-y-figmagray-300`}>
